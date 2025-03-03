@@ -61,6 +61,7 @@
   "scripts": {
     "test": "tsc -p tsconfig.cjs.json && mocha",
     "prepack": "just install && just build"
+    "start": "node index.js"
   },
   "exports": {
     "types": "./types/index.d.ts",
